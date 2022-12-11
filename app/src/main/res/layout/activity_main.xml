@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <com.quanticheart.otpedittext.PinEntryEditText
+        android:id="@+id/pin_entry_edit"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:cursorVisible="true"
+        android:digits="1234567890"
+        android:focusable="true"
+        android:inputType="number|numberPassword"
+        android:maxLength="4"
+        android:textColor="#000"
+        android:textIsSelectable="false"
+        android:textSize="15sp" />
+
+</LinearLayout>
